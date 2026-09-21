@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>18+ Video Vault</title>
+    <meta
+      name="description"
+      content="Legal adult-only video marketplace with Telegram payment arrangements."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="ageGate" class="age-gate" aria-live="polite">
+      <div class="age-gate-card">
+        <p class="eyebrow">18+ ONLY</p>
+        <h2>Adult Content</h2>
+        <p>
+          This website contains adult-oriented material intended only for persons
+          18 years of age or older.
+        </p>
+        <div class="age-actions">
+          <button id="enterSite" class="primary-btn">I am 18+</button>
+          <button id="leaveSite" class="secondary-btn">Exit</button>
+        </div>
+      </div>
+    </div>
+
+    <header class="topbar">
+      <div class="container nav">
+        <div class="brand">
+          <span class="brand-mark">18+</span>
+          <span>Video Vault</span>
+        </div>
+
+        <nav class="nav-links">
+          <a href="#catalog">Catalog</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <p class="eyebrow">Exclusive access</p>
+            <h1>Premium adult video collection</h1>
+            <p>
+              Browse available digital products and send a direct purchase request
+              through Telegram. Payment details are arranged privately after you
+              contact the seller.
+            </p>
+            <a href="#catalog" class="primary-btn">Browse collection</a>
+          </div>
+
+          <div class="hero-card">
+            <div class="mini-product">
+              <span class="tag">Featured</span>
+              <h3>Premium Adult Video Bundle</h3>
+              <p>Private access to a premium adult package.</p>
+              <strong>$75</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="catalog" class="catalog section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Catalog</p>
+            <h2>Available downloads</h2>
+          </div>
+
+          <div id="productGrid" class="product-grid"></div>
+        </div>
+      </section>
+
+      <section id="about" class="about section">
+        <div class="container about-box">
+          <div>
+            <p class="eyebrow">About</p>
+            <h2>Private and direct</h2>
+          </div>
+
+          <p>
+            All purchases are arranged privately through Telegram. After choosing a
+            product, you will be redirected to the seller’s DM where payment
+            options are discussed and the file is delivered after confirmation.
+          </p>
+        </div>
+      </section>
+
+      <section id="contact" class="contact section">
+        <div class="container contact-box">
+          <p class="eyebrow">Contact</p>
+          <h2>Secure purchase requests</h2>
+          <a
+            href="https://t.me/imfromyourdreams"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="primary-btn"
+          >
+            Message on Telegram
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>© 2026 18+ Video Vault. Adults only.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
